@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestão de Estudos Inteligente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'dark-bg': '#1A202C',
+              'dark-card': '#1E1E1E',
+              'dark-text': '#F7FAFC',
+              'dark-secondary-text': '#A0AEC0',
+              'dark-accent': '#9F7AEA',
+              'dark-hover': '#805AD5',
+              'dark-border': '#4A5568',
+              'success': '#48BB78',
+              'error': '#F56565',
+            },
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: 0, transform: 'translateY(10px)' },
+                '100%': { opacity: 1, transform: 'translateY(0)' },
+              },
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-out forwards',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.553.0",
+    "mammoth": "https://aistudiocdn.com/mammoth@^1.8.0",
+    "pdfjs-dist": "https://aistudiocdn.com/pdfjs-dist@^4.6.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-dark-bg text-dark-text font-sans">
+    <div id="root"></div>
+  </body>
+</html>

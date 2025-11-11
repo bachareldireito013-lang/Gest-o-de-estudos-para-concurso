@@ -1,0 +1,5 @@
+{
+  "name": "Gestor de Estudos Inteligente",
+  "description": "Uma aplicação inteligente que cria um plano de estudos otimizado para concursos públicos a partir do edital, gerencia seu progresso e o mantém atualizado com as últimas novidades.",
+  "requestFramePermissions": []
+}
